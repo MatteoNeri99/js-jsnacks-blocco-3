@@ -4,6 +4,16 @@ let numeriCasuali=Number.parseInt(prompt("quanti numeri devono essere presenti n
 if (numeriCasuali < 6){
     numeriCasuali=10
 }
+for(index=0; index<numeriCasuali; index++){
+
+    let numeriMiei=Math.floor(Math.random()*100) + 1;
+
+    numeri.push(numeriMiei);
+    
+}
+console.log(numeri);
+
+
 
 
 
