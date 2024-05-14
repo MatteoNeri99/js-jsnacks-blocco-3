@@ -2,8 +2,11 @@ const numeri=[];
 let numeriCasuali=Number.parseInt(prompt("quanti numeri devono essere presenti nel array?"),10);
 
 if (numeriCasuali < 6){
-    numeriCasuali=10
+    numeriCasuali=10;
+}else if (numeriCasuali > 20){
+    numeriCasuali=10;
 }
+
 for(index=0; index<numeriCasuali; index++){
 
     let numeriMiei=Math.floor(Math.random()*100) + 1;
@@ -14,10 +17,10 @@ for(index=0; index<numeriCasuali; index++){
 console.log(numeri);
 
 for (index=0; index< numeriCasuali - 5 ; index++){
-    numeri.shift()
+    numeri.shift();
     
 }
-console.log(numeri)
+console.log(numeri);
 
 
 
