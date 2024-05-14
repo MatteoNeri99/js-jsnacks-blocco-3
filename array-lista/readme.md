@@ -14,6 +14,12 @@ Suggerimenti/Indicazioni:
 Sì, lo sappiamo che esistono le funzioni includes() e indexOf() ma noi non le vogliamo utilizzare per cercare nel frigorifero.
 
 
+1) creo un'array contenente i frutti elencati
+2) creo una variabile dal nome pesca 
+3) con .push inserisco la variabile pesca nell'array
+4) essendo che non posso usare ne includes() ne indexOf() creo un ciclo for che controlli se è presente il cocomero nell'array
+5) nel ciclo aggiungo un'istruzione condizionale che mi stamperà ciò che è richiesto nella consegna
+
 
 
 
