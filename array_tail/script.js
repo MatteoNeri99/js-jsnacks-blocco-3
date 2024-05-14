@@ -13,7 +13,11 @@ for(index=0; index<numeriCasuali; index++){
 }
 console.log(numeri);
 
-
+for (index=0; index< numeriCasuali - 5 ; index++){
+    numeri.shift()
+    
+}
+console.log(numeri)
 
 
 
