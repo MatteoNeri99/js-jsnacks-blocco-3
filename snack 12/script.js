@@ -18,10 +18,10 @@ function parole(parolaUno, parolaDue){
 
 }
 
-parole("maggio","febbraio")
+parole("maggio","febbraio");
 
 let paroleUtente=prompt("inserisci una parola");
 
 let paroleUtenteDue=prompt("inserisci una parola");
 
-parole(paroleUtente, paroleUtenteDue)
+parole(paroleUtente, paroleUtenteDue);
