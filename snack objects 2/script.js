@@ -59,7 +59,7 @@ const auto= [
 
         modello:"golf",
 
-        alimentazione:"diesell"
+        alimentazione:"diesel"
 
     },
     {
