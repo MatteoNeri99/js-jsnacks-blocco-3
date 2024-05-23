@@ -114,12 +114,12 @@ const puòGuidare=[];
 
 persona.forEach((element)=>{
 
-    if(persona.eta < 18){
+    if(element.eta < 18){
         puòGuidare.push(element.nome+ " " + element.cognome + " " + "essendo che ha un'età minore di 18 non puo guidare")
 
     }else{
 
-        puòGuidare.push(element.nome + " " + element.cognome +  " " +"essendo che ha un'età minore di 18  può guidare")
+        puòGuidare.push(element.nome + " " + element.cognome +  " " +"essendo che ha un'età maggiore di 18  può guidare")
     }
 
 });
