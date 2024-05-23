@@ -2,9 +2,9 @@ const palla ={
      peso: 10
     };
 
-palla.peso=prompt("inserisci il peso della palla")
+palla.peso=prompt("inserisci il peso della palla");
 
-console.log("il peso della palla è " + palla.peso)
+console.log("il peso della palla è " + palla.peso);
 
 
 
