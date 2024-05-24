@@ -119,7 +119,7 @@ persona.forEach((element)=>{
 
     }else{
 
-        puòGuidare.push(element.nome + " " + element.cognome +  " " +"essendo che ha un'età maggiore di 18  può guidare")
+        puòGuidare.push(element.nome + " " + element.cognome +  " " +"essendo che ha un'età maggiore di 18 può guidare")
     }
 
 });
